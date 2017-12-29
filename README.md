@@ -7,3 +7,4 @@
   * NiFi in the background: ```run bin/nifi.sh start```
   * To check the status and see if NiFi is currently running, execute the command ```bin/nifi.sh status```
   * NiFi can be shutdown by executing the command ```bin/nifi.sh stop```
+* Manage Templates(Export/Import/Create/Remove): https://nifi.apache.org/docs/nifi-docs/html/user-guide.html#Manage_Templates
