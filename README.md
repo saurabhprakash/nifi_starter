@@ -8,3 +8,9 @@
   * To check the status and see if NiFi is currently running, execute the command ```bin/nifi.sh status```
   * NiFi can be shutdown by executing the command ```bin/nifi.sh stop```
 * Manage Templates(Export/Import/Create/Remove): https://nifi.apache.org/docs/nifi-docs/html/user-guide.html#Manage_Templates
+
+
+Samples:
+
+1. fetchTwitterDataAndAddToElasticsearch.xml: Fetches data from twitter and dumps to elasticsearch(version 5.x used).
+ * Before importing above in nifi replace the value for these two variables: "Consumer Key" and "Access Token"
