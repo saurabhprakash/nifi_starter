@@ -13,4 +13,5 @@
 Samples:
 
 1. fetchTwitterDataAndAddToElasticsearch.xml: Fetches data from twitter and dumps to elasticsearch(version 5.x used).
- * Before importing above in nifi replace the value for these two variables: "Consumer Key" and "Access Token"
+   * Before importing above in nifi replace the value for these two variables: "Consumer Key" and "Access Token"
+   * Post importing set the values of "Consumer Secret" and "Access token secret" in GetTwitter Processor
